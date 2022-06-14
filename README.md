@@ -83,6 +83,6 @@ This program prevents the system from going idle from user inactivity. This can 
 ### Considerations
  - If you are using a remote session, and are active on the host PC in a different window (other than the remote session), the remote session may log inactivity during this period of time. 
  - If you plan to step away from the host PC for more than 3 minutes, ensure the remote session window is active (selected) so that it can register cursor movements made by the program. 
- - Depending on the host PC sleep settings, the program may become suspended even when running. 
+ - Depending on the host PC sleep settings, the system may override the program and the system may become suspended. Adjust sleep and power saving settings as needed.
  - The program moves the cursor to (40,40) and then creates a diagonal line moving downward and rightward. If you need to adjust this setting, change the line `pyautogui.moveTo(40,40)` to the pixel coordinates desired. 
  - The program waits for three minutes between cycles. If you want to change this interval, adjust the line `time.sleep(180)` to the desired duration (in seconds).
