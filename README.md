@@ -1,5 +1,5 @@
 # noIdle
-A simple script to prevent a remote session from logging an idle status due to user inactivity.
+A simple script to prevent a remote session from logging an idle status due to user inactivity. The intent of this program is to bring some relief through the natural flow of productivity cycles. 
 
 ### Installation 
 1. Install [Python](https://www.python.org/downloads/)
