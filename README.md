@@ -6,7 +6,8 @@ A simple script to prevent a remote session from logging an idle status due to u
 2. Install [pyautogui](https://pyautogui.readthedocs.io/en/latest/install.html) 
 	- On Windows, type `pip install pyautogui` in the Command Prompt console. 
 	- On Mac or Linux, type `pip3 install pyautogui` in the Terminal.
-3. Using the Command Prompt or Terminal, navigate to the directory where `noIdle.py` is installed. Use `python noIdle.py` to run the program.
+3. Download `noIdle.py` to the local hard drive.
+4. Using the Command Prompt or Terminal, navigate to the directory where `noIdle.py` is installed. Use `python noIdle.py` to run the program.
 
 ### Full Code Block:
 
